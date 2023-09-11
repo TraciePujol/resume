@@ -1,7 +1,5 @@
 /* project.css */
 
-
-
 /* Style for the project list container */
 #project-list {
     display: flex;
@@ -30,15 +28,15 @@
     color: #555;
 }
 
-/* Style the links to look like buttons */
-#discover-more, #download-resume {
+/* Style for the "Learn More" link */
+.project a {
     display: inline-block;
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #637999; /* Button background color */
-    color: white; /* Button text color */
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
     text-decoration: none;
-    border-radius: 5px; /* Add rounded corners */
-    margin-right: 10px; /* Add spacing between buttons */
+    border-radius: 3px;
+    transition: background-color 0.3s;
 }
 
 .project a:hover {
