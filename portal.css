@@ -11,8 +11,8 @@ body {
 
 /* Centered square styles */
 #centered-square {
-    width: 400px; /* Adjust the width as needed */
-    height: 200px; /* Ensure height matches the width */
+    width: 800px; /* Adjust the width as needed */
+    height: 400px; /* Ensure height matches the width */
     background-color: #757980; /* Grey background color */
     border: 5px solid #7d5389; /* Purple border color */
     border-radius: 10px;
@@ -26,6 +26,14 @@ body {
     position: relative; /* Add this to position its child elements */
 }
 
+/* Adjust the positioning of the headshot */
+#headshot {
+    position: absolute;
+    left: 10px; /* Adjust the left position */
+    top: 10px; /* Adjust the top position */
+    z-index: 2; /* Ensure the headshot is above the rectangle */
+}
+
 /* Logo styles */
 #logo img {
     max-width: 100px; /* Adjust the maximum width of the logo */
@@ -34,10 +42,22 @@ body {
     top: 10px; /* Adjust the top position to move it down */
 }
 
+/* Style the links to look like buttons */
+#discover-more, #download-resume {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #637999; /* Button background color */
+    color: white; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Add rounded corners */
+    margin-right: 10px; /* Add spacing between buttons */
+}
+
 /* Social Media links */
 #social-media {
     position: absolute;
-    bottom: 10px; /* Adjust the bottom position to move it up */
+    bottom: 20px; /* Adjust the bottom position */
+    left: 10px; /* Adjust the horizontal position */
 }
 
 #social-media a {

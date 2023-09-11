@@ -1,5 +1,3 @@
-/* CSS for about.css */
-
 /* Styles for the colored side with navigation */
 #colored-side {
     background-color: #637999; /* Dark blue background color */
@@ -32,7 +30,6 @@ header {
 #about-me {
     background-color: white; /* White background color */
     border: 1px solid black; /* Black border around the content */
-    margin-left: 220px; /* Adjust to leave space for the colored side */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -49,3 +46,11 @@ header {
 }
 
 /* Add more styles to customize your "About Me" content as needed */
+
+/* Center the footer horizontally */
+footer {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100px; /* Set a specific height for the footer if needed */
+}
