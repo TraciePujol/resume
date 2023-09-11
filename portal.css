@@ -1,0 +1,48 @@
+/* Body styles */
+body {
+    background-color: black; /* Black background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered square styles */
+#centered-square {
+    width: 400px; /* Adjust the width as needed */
+    height: 200px; /* Ensure height matches the width */
+    background-color: #757980; /* Grey background color */
+    border: 5px solid #7d5389; /* Purple border color */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Add this to position its child elements */
+}
+
+/* Logo styles */
+#logo img {
+    max-width: 100px; /* Adjust the maximum width of the logo */
+    height: auto; /* Maintain the aspect ratio of the logo */
+    position: absolute;
+    top: 10px; /* Adjust the top position to move it down */
+}
+
+/* Social Media links */
+#social-media {
+    position: absolute;
+    bottom: 10px; /* Adjust the bottom position to move it up */
+}
+
+#social-media a {
+    color: white; /* White color for social media icons */
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-right: 10px; /* Add spacing between social media icons */
+    text-decoration: none;
+}

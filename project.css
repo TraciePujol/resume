@@ -1,0 +1,44 @@
+/* project.css */
+
+/* Style for the project list container */
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style for individual project items */
+.project {
+    width: calc(50% - 10px); /* Two projects per row with a little space between them */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Style for the "Learn More" link */
+.project a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}

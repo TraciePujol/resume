@@ -1,0 +1,38 @@
+/* Skills section styles */
+
+/* Skill categories */
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.skill-category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Individual skills */
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: #f0f0f0; /* Background color of the progress bar */
+    border-radius: 5px;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #007bff; /* Color of the filled progress bar */
+}
+
+/* Skill details */
+.skill-details {
+    font-style: italic;
+    font-size: 14px;
+}

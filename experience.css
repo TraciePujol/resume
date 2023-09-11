@@ -1,0 +1,21 @@
+/* CSS for experience.css */
+
+/* Styles for each job entry */
+.job {
+    background-color: white; /* White background color */
+    border: 1px solid black; /* Black border around the content */
+    margin: 20px 0; /* Add spacing between job entries */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for job titles */
+.job h3 {
+    color: #757980; /* Header text color */
+}
+
+/* Styles for job details (company, location, dates) */
+.job p {
+    color: black; /* Body text color */
+}

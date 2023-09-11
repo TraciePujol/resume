@@ -1,0 +1,51 @@
+/* CSS for about.css */
+
+/* Styles for the colored side with navigation */
+#colored-side {
+    background-color: #637999; /* Dark blue background color */
+    border-right: 1px solid black; /* Black border separating it from the content */
+    height: 100%; /* Make it cover the full height of the page */
+    width: 200px; /* Adjust the width as needed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+/* Styles for the navigation links */
+#colored-side a {
+    display: block;
+    color: white; /* White text color for links */
+    text-decoration: none;
+    margin-bottom: 10px; /* Add spacing between links */
+}
+
+/* Styles for the header with white background and purple text */
+header {
+    background-color: #7d5389; /* Purple background color */
+    color: white; /* White text color */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styles for the "About Me" section */
+#about-me {
+    background-color: white; /* White background color */
+    border: 1px solid black; /* Black border around the content */
+    margin-left: 220px; /* Adjust to leave space for the colored side */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styles for headers in the white section */
+#about-me h2 {
+    color: #757980; /* Header text color */
+}
+
+/* Styles for body text in the white section */
+#about-me p {
+    color: black; /* Body text color */
+}
+
+/* Add more styles to customize your "About Me" content as needed */
