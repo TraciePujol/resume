@@ -26,13 +26,15 @@ body {
     position: relative; /* Add this to position its child elements */
 }
 
-/* Adjust the positioning of the headshot */
+/* Adjust the size of the headshot */
 #headshot {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
     position: absolute;
     left: 10px; /* Adjust the left position */
     top: 50%; /* Center vertically */
     transform: translateY(-50%); /* Vertically center the headshot */
-    z-index: 2; /* Ensure the headshot is above the rectangle */
+    z-index: 2; /* Ensure the headshot is above the square */
 }
 
 /* Logo styles */
@@ -43,7 +45,7 @@ body {
     top: 10px; /* Adjust the top position to move it down */
 }
 
-/* Style the links to look like buttons */
+/* Adjust the positioning of the links */
 #discover-more, #download-resume {
     display: inline-block;
     padding: 10px 20px; /* Adjust padding as needed */
@@ -52,6 +54,9 @@ body {
     text-decoration: none;
     border-radius: 5px; /* Add rounded corners */
     margin-right: 10px; /* Add spacing between buttons */
+    position: absolute;
+    bottom: 10px; /* Adjust the bottom position within the square */
+    left: 10px; /* Adjust the left position within the square */
 }
 
 /* Social Media links */
