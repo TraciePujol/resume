@@ -30,7 +30,8 @@ body {
 #headshot {
     position: absolute;
     left: 10px; /* Adjust the left position */
-    top: 10px; /* Adjust the top position */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Vertically center the headshot */
     z-index: 2; /* Ensure the headshot is above the rectangle */
 }
 
