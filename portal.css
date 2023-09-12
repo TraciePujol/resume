@@ -12,7 +12,9 @@ body {
 /* Adjust the positioning of the headshot */
 #headshot {
     position: absolute;
-    left: 10px; /* Adjust the left position */
+    max-width: 25px; /* Set the maximum width */
+    max-height: 75px; /* Set the maximum height */
+    left: 25px; /* Adjust the left position */
     top: 10px; /* Adjust the top position */
     z-index: 2; /* Ensure the headshot is above the rectangle */
 }
