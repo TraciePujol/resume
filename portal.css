@@ -9,15 +9,6 @@ body {
     height: 100vh;
 }
 
-/* Adjust the positioning of the headshot */
-#headshot {
-    position: absolute;
-    max-width: 25px; /* Set the maximum width */
-    max-height: 75px; /* Set the maximum height */
-    left: 25px; /* Adjust the left position */
-    top: 10px; /* Adjust the top position */
-    z-index: 2; /* Ensure the headshot is above the rectangle */
-}
 
 /* Centered square styles */
 #centered-square {
@@ -34,6 +25,16 @@ body {
     justify-content: center;
     align-items: center;
     position: relative; /* Add this to position its child elements */
+}
+
+/* Adjust the positioning of the headshot */
+#headshot {
+    position: absolute;
+    max-width: 10px; /* Set the maximum width */
+    max-height: 30px; /* Set the maximum height */
+    left: 75px; /* Adjust the left position */
+    top: 5px; /* Adjust the top position */
+    z-index: 2; /* Ensure the headshot is above the rectangle */
 }
 
 /* Logo styles */
